@@ -1,0 +1,9 @@
+bot_token = "123456:abcdefg"  # 这是你的 Telegram bot 的令牌，通过 BotFather 获取。需要将其替换为你的真实 token。
+bot_name = '@Example_Bot'  # 这是你的 bot 的用户名，通常以 '@' 开头，用于标识 bot 的唯一名称。
+api_id = 123456  # 这是你在 Telegram API 中注册应用时获得的 API ID，通常是一个数字。
+api_hash = "123abcdef"  # 这是与 api_id 一起使用的 API hash，用于身份验证和与 Telegram API 的交互。
+groupid = -123456  # 这是群组的 ID，可以通过调用 Telegram API 或者其他方法获取。负数表示私密群组。
+group_id = "@ExampleGroup"  # 这是群组的用户名，用于标识群组（例如，@group_name）。
+channelid = -123456  # 这是频道的 ID，通常也是负数，表示频道的唯一标识符。
+admin_list = [123,456]  # 这是管理员的用户 ID 列表，只有这些用户可以管理 bot 或进行管理操作。
+ban_channel_id = -123456  # 这是用于禁用某个频道的 ID，通常是一个负数，表示特定的频道 ID。
